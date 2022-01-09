@@ -439,6 +439,28 @@ body td {
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
+iframe #embed_iframe,
+#embed #embed_iframe {
+  margin: 0;
+  width: 100%;
+  height: 900;
+  border: none;
+  background: transparent;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 1px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #535353;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #ededed;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
 *,
 *:before,
 *:after {
